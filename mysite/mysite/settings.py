@@ -117,9 +117,9 @@ ALLOWED_HOSTS = ['*']
 STATIC_ROOT = 'staticfiles'
 
 #Turn off DEBUG mode
-DEBUG = Flase
+DEBUG = False
 
-TEMPLATE_DEBUG - Flase
+TEMPLATE_DEBUG = False
 
 #Import all of local settings if the file exists
 try:
