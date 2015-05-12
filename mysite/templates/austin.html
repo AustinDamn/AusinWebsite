@@ -7,7 +7,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Demo Django Website</title>
+		<title>Austin Django Website</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -26,12 +26,11 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="austindamn.koding.io:8000/austin.html">Home Page</a></h1>
+				<h1><a href="https://austindamn.herokuapp.com/austin/">Home Page</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Personal Data</a></li>
-						<li><a href="generic.html">Skill</a></li>
-						<li><a href="elements.html">Work Experience</a></li>
+						<li><a href="https://austindamn.herokuapp.com/austin/">English</a></li>
+						<!--li><a href="{{TEMPLATE_DIRS}}generic.html">Chinese</a></li-->
 						<!--li><a href="#" class="button special">Sign Up</a></li-->
 					</ul>
 				</nav>
@@ -39,84 +38,75 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<h2>Hi. This is Austin's Resume Page.</h2>
-				<p>Welcome to My Page!!</p>
-				<ul class="actions">
-					<li>
-						<a href="mailto:hct830@gmail.com" class="button big">Mail to me!!</a>
-					</li>
-				</ul>
-			</section>
-
-		<!-- One -->
-			<section id="one" class="wrapper style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Consectetur adipisicing elit</h2>
-						<p>Lorem ipsum dolor sit amet, delectus consequatur, similique quia!</p>
-					</header>
-					<div class="row 150%">
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color1 fa-cloud"></i>
-								<h3>Lorem ipsum dolor</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color9 fa-desktop"></i>
-								<h3>Consectetur adipisicing</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ullam consequatur repellat debitis maxime.</p>
-							</section>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color6 fa-rocket"></i>
-								<h3>Adipisicing elit totam</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eaque eveniet, nesciunt molestias. Ipsam, voluptate vero.</p>
-							</section>
-						</div>
-					</div>
-				</div>
+				<a href="#two" class="button big">Profile</a>
 			</section>
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">
 				<div class="container">
-					<header class="major">
+					<!--header class="major">
 						<h2>Lorem ipsum dolor sit</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, autem.</p>
-					</header>
+					</header-->
 					<section class="profiles">
 						<div class="row">
+						    <section class="3u 6u(medium) 12u$(xsmall) profile">
+								<h4>About Me</h4>
+								<p>Name: Austin<br>
+								   Nation: Taiwan<br>
+								   Age: Born in 1988<br>
+								   Gender: Male<br>
+								   Mobile: +886926382519<br>
+								   Facebook: AustinHsu<br>
+								</p>
+							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Lorem ipsum</h4>
-								<p>Lorem ipsum dolor</p>
+								<h4>Profile</h4>
+								<ul>
+								    <li>Three years worked in King Yuan Electronics co., Ltd.  Main Job: Develop and maintain system. To realize why the code be that , and try to find it if that can be improved.</li>
+                                    <li>One and half year lived in Australia.</li>
+                                    <li>Language: Mandirin Chinese , English.</li>
+								</ul>
+								<h4>Personality</h4>
+								<ul>
+								    <li>Hobbies: Reading、Learning、Sport、Traveling</li>
+								    <li>Principles:Integrity、easy going</li>
+								</ul>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dolores</h4>
-								<p>Ullam nihil repudi</p>
+								<h4>Education</h4>
+								<p>2006-2010 National United University Computer Science and Information Engineering bachelor degree</p>
+								<h4>Skills</h4>
+								<ul>
+								    <li>Coding</li>
+								    <div>Java、C、Shell、VB6.0、TCL、Python</div>
+								    <li>WebDesign</li>
+								    <div>HTML、CSS</div>
+								    <li>System admin</li>
+								    <div>Linux、Apache、Tomcat</div>
+								</ul>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Doloremque quo</h4>
-								<p>Harum corrupti quia</p>
-							</section>
-							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/profile_placeholder.gif" alt="" />
-								<h4>Voluptatem dicta</h4>
-								<p>Et natus sapiente</p>
+								<h4>Work Experience</h4>
+								<p>In King Yuan Project:</p>
+								<ul>
+								    <li>Import New customers' product</li>
+								    <div>Adjust the testing process and setting with customers,and make sure all can be well done.</div>
+                                    <li>Integrate and optimize original process</li>
+                                    <div>Trace old code and simplify the complicated process. I convert Shell to Java for convergence. It will be more easier to maintain and debug.</div>
+                                    <li>Develop customized report</li>
+                                    <div>Follow the spec of customer to develop the report.</div>
+								    <li>Maintain Web page system</li>
+								    <div>Some of testing program upload through by website.</div>
+								</ul>
 							</section>
 						</div>
 					</section>
 					<footer>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!</p>
+						<p>If something that you’re doing doesn’t challenge you, then it doesn’t change you.!</p>
 						<ul class="actions">
 							<li>
-								<a href="#" class="button big">Lorem ipsum dolor sit</a>
+								<a href="mailto:hct830@gmail.com" class="button big">Mail to me</a>
 							</li>
 						</ul>
 					</footer>
@@ -124,7 +114,7 @@
 			</section>
 
 		<!-- Three -->
-			<section id="three" class="wrapper style3 special">
+			<!--section id="three" class="wrapper style3 special">
 				<div class="container">
 					<header class="major">
 						<h2>Consectetur adipisicing elit</h2>
@@ -151,28 +141,28 @@
 						</div>
 					</form>
 				</div>
-			</section>
+			</section-->
 
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
-					<section class="links">
+					<!--section class="links">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(small)">
 								<h3>Lorem ipsum dolor</h3>
 								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Nesciunt itaque, alias possimus</a></li>
-									<li><a href="#">Optio rerum beatae autem</a></li>
-									<li><a href="#">Nostrum nemo dolorum facilis</a></li>
-									<li><a href="#">Quo fugit dolor totam</a></li>
+									<li><a href="#">Profile</a></li>
+									<li><a href="#">Name:Austin</a></li>
+									<li><a href="#">Nation:Taiwan</a></li>
+									<li><a href="#">Born in 1988</a></li>
+									<li><a href="#">FB:tkjh90010@hotmail.com</a></li>
 								</ul>
 							</section>
 							<section class="3u 6u$(medium) 12u$(small)">
-								<h3>Culpa quia, nesciunt</h3>
+								<h3>Skills</h3>
 								<ul class="unstyled">
-									<li><a href="#">Lorem ipsum dolor sit</a></li>
-									<li><a href="#">Reiciendis dicta laboriosam enim</a></li>
+									<li><a href="#">Coding: Java/Shell/PHP/Python</a></li>
+									<li><a href="#"></a></li>
 									<li><a href="#">Corporis, non aut rerum</a></li>
 									<li><a href="#">Laboriosam nulla voluptas, harum</a></li>
 									<li><a href="#">Facere eligendi, inventore dolor</a></li>
@@ -199,16 +189,16 @@
 								</ul>
 							</section>
 						</div>
-					</section>
+					</section-->
 					<div class="row">
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li>
+								<li>&copy; Last built on 12 May 2015. All rights reserved.</li>
 								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
 								<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
 							</ul>
 						</div>
-						<div class="4u$ 12u$(medium)">
+						<!--div class="4u$ 12u$(medium)">
 							<ul class="icons">
 								<li>
 									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
@@ -223,7 +213,7 @@
 									<a class="icon rounded fa-linkedin"><span class="label">LinkedIn</span></a>
 								</li>
 							</ul>
-						</div>
+						</div-->
 					</div>
 				</div>
 			</footer>

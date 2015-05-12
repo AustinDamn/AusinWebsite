@@ -10,4 +10,6 @@ urlpatterns = patterns('',
     url(r'^hello/$', 'trips.views.hello_world'),
     url(r'^$','trips.views.home'),
     url(r'^austin/$','trips.views.austin'),
+    url(r'^Personal_info.html/$','trips.views.Personal_info'),
+    #url(r'^Personal_info.html/$','trips.views.generic'),
 )

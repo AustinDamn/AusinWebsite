@@ -117,9 +117,9 @@ ALLOWED_HOSTS = ['*']
 STATIC_ROOT = 'staticfiles'
 
 #Turn off DEBUG mode
-DEBUG = False
+DEBUG = True
 
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = True
 
 #Import all of local settings if the file exists
 try:
