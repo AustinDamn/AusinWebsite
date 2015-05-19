@@ -1016,7 +1016,7 @@
 						vertical-align: middle;
 					}
 
-		#header .container {
+/*		#header .container {
 			position: relative;
 		}
 
@@ -1026,7 +1026,7 @@
 
 			#header .container nav {
 				right: 0;
-			}
+			}*/
 
 /* Banner */
 
@@ -1090,6 +1090,15 @@
 		.wrapper.style2 .profile {
 			margin-bottom: 2em;
 			text-align: left;
+		}
+		
+		.wrapper.style2 .profile a{
+		    text-decoration:underline;
+		}
+		.wrapper.style2 .profile a:hover{
+		     color:#858585;
+		     font-size:2em;
+		     text-decoration:underline;
 		}
 
 			.wrapper.style2 .profile img {
