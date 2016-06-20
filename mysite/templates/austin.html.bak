@@ -26,14 +26,11 @@
 
 		<!-- Header -->
 			<header id="header">
-				<h1><a href="http://127.0.0.1:8000/austin/">AustinHsu</a></h1>
-				<!--h1><a href="https://austindamn.herokuapp.com/austin/">AustinHsu</a></h1-->
+				<h1><a href="https://austindamn.herokuapp.com/austin/">AustinHsu</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="http://127.0.0.1:8000/austin/">English</a></li>
-						<li><a href="http://127.0.0.1:8000/austin-zh/">Chinese</a></li>
-						<!--li><a href="https://austindamn.herokuapp.com/austin/">English</a></li>
-						<li><a href="ttps://austindamn.herokuapp.com/austin-zh/">Chinese</a></li-->
+						<li><a href="https://austindamn.herokuapp.com/austin/">English</a></li>
+						<li><a href="ttps://austindamn.herokuapp.com/austin-zh/">Chinese</a></li>
 						<!--li><a href="#" class="button special">Sign Up</a></li-->
 					</ul>
 				</nav>
@@ -46,7 +43,6 @@
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">
-				<div id="menu"><span id="menuAbout" style="border-width: 0px 0px 2px; border-bottom-style: solid; border-bottom-color: rgb(255, 255, 255); opacity: 1;">About</span><span id="menuSkills" style="border: 0px; opacity: 0.6;">Skills</span><span id="menuExperiences" style="border: 0px; opacity: 0.6;">Experiences</span><span id="menuWorks" style="border: 0px; opacity: 0.6;">Works</span><span id="menuContact" style="border: 0px; opacity: 0.6;">Contact</span></div>
 				<div class="container">
 					<!--header class="major">
 						<h2></h2>
